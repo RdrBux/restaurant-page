@@ -1,0 +1,53 @@
+:root {
+  --brown: #331616;
+}
+
+body {
+  background-color: var(--brown);
+  color: white;
+  height: 100%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  max-width: 60ch;
+  text-align: justify;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  padding: 0;
+}
+
+.nav button {
+  padding: 10px 20px;
+  border: 2px solid white;
+  background-color: var(--brown);
+  color: white;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.nav button:hover {
+  background-color: #1a0303;
+}
+
+.container img {
+  display: block;
+  margin: 2rem auto;
+}
